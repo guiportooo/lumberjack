@@ -7,7 +7,13 @@
   "author": "chicocode <eu@chicocode.io>, guiportooo <guiportooo@gmail.com>, rccorreia <rdcc89@gmail.com>, renanrodcosta <renanrodcosta@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "lint": "node_modules/.bin/eslint src"
+  },
   "dependencies": {
     "koa": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0"
   }
 }
